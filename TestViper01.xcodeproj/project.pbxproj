@@ -14,6 +14,10 @@
 		5B10D00A1E0C17A500719BB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B10D0091E0C17A500719BB4 /* Assets.xcassets */; };
 		5B10D00D1E0C17A500719BB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B10D00B1E0C17A500719BB4 /* LaunchScreen.storyboard */; };
 		5B10D0181E0C17A500719BB4 /* TestViper01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B10D0171E0C17A500719BB4 /* TestViper01Tests.m */; };
+		5B10D0241E0C229900719BB4 /* TestViperToDoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B10D0231E0C229900719BB4 /* TestViperToDoTableViewController.m */; };
+		5B10D0271E0C782100719BB4 /* TestViperToDoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B10D0261E0C782100719BB4 /* TestViperToDoTableViewCell.m */; };
+		8D349D89CBAE963F8BC77E45 /* libPods-TestViper01Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 353E02598B4D0E3D0097C88D /* libPods-TestViper01Tests.a */; };
+		E9F608C10B0A954AAB7E1C96 /* libPods-TestViper01.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 805F7F0F70EE539626C980BB /* libPods-TestViper01.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		353E02598B4D0E3D0097C88D /* libPods-TestViper01Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestViper01Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A245230D5299624AA09E70F /* Pods-TestViper01Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestViper01Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestViper01Tests/Pods-TestViper01Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4DA5E5E5473E71BDB44B59EC /* Pods-TestViper01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestViper01.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestViper01/Pods-TestViper01.debug.xcconfig"; sourceTree = "<group>"; };
 		5B10CFFA1E0C17A500719BB4 /* TestViper01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestViper01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B10CFFE1E0C17A500719BB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B10D0001E0C17A500719BB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,6 +47,13 @@
 		5B10D0131E0C17A500719BB4 /* TestViper01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestViper01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B10D0171E0C17A500719BB4 /* TestViper01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViper01Tests.m; sourceTree = "<group>"; };
 		5B10D0191E0C17A500719BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B10D0221E0C229900719BB4 /* TestViperToDoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViperToDoTableViewController.h; sourceTree = "<group>"; };
+		5B10D0231E0C229900719BB4 /* TestViperToDoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViperToDoTableViewController.m; sourceTree = "<group>"; };
+		5B10D0251E0C782100719BB4 /* TestViperToDoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViperToDoTableViewCell.h; sourceTree = "<group>"; };
+		5B10D0261E0C782100719BB4 /* TestViperToDoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViperToDoTableViewCell.m; sourceTree = "<group>"; };
+		805F7F0F70EE539626C980BB /* libPods-TestViper01.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestViper01.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2DF1B5CE0EEB249782783F6 /* Pods-TestViper01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestViper01.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestViper01/Pods-TestViper01.release.xcconfig"; sourceTree = "<group>"; };
+		E436922F336A0FC856801454 /* Pods-TestViper01Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestViper01Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestViper01Tests/Pods-TestViper01Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9F608C10B0A954AAB7E1C96 /* libPods-TestViper01.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +69,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D349D89CBAE963F8BC77E45 /* libPods-TestViper01Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14EE6B138876EA7460899306 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DA5E5E5473E71BDB44B59EC /* Pods-TestViper01.debug.xcconfig */,
+				B2DF1B5CE0EEB249782783F6 /* Pods-TestViper01.release.xcconfig */,
+				3A245230D5299624AA09E70F /* Pods-TestViper01Tests.debug.xcconfig */,
+				E436922F336A0FC856801454 /* Pods-TestViper01Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5B10CFF11E0C17A500719BB4 = {
 			isa = PBXGroup;
 			children = (
 				5B10CFFC1E0C17A500719BB4 /* TestViper01 */,
 				5B10D0161E0C17A500719BB4 /* TestViper01Tests */,
 				5B10CFFB1E0C17A500719BB4 /* Products */,
+				14EE6B138876EA7460899306 /* Pods */,
+				A7B1CFFEA7726A113B9454C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +119,10 @@
 				5B10D00B1E0C17A500719BB4 /* LaunchScreen.storyboard */,
 				5B10D00E1E0C17A500719BB4 /* Info.plist */,
 				5B10CFFD1E0C17A500719BB4 /* Supporting Files */,
+				5B10D0221E0C229900719BB4 /* TestViperToDoTableViewController.h */,
+				5B10D0231E0C229900719BB4 /* TestViperToDoTableViewController.m */,
+				5B10D0251E0C782100719BB4 /* TestViperToDoTableViewCell.h */,
+				5B10D0261E0C782100719BB4 /* TestViperToDoTableViewCell.m */,
 			);
 			path = TestViper01;
 			sourceTree = "<group>";
@@ -111,6 +144,15 @@
 			path = TestViper01Tests;
 			sourceTree = "<group>";
 		};
+		A7B1CFFEA7726A113B9454C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				805F7F0F70EE539626C980BB /* libPods-TestViper01.a */,
+				353E02598B4D0E3D0097C88D /* libPods-TestViper01Tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B10D01C1E0C17A500719BB4 /* Build configuration list for PBXNativeTarget "TestViper01" */;
 			buildPhases = (
+				49007DE8F55332625C6F0224 /* 📦 Check Pods Manifest.lock */,
 				5B10CFF61E0C17A500719BB4 /* Sources */,
 				5B10CFF71E0C17A500719BB4 /* Frameworks */,
 				5B10CFF81E0C17A500719BB4 /* Resources */,
+				5607B582965A1145C024118D /* 📦 Embed Pods Frameworks */,
+				86BF3D350F54A95DF2C780C4 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B10D01F1E0C17A500719BB4 /* Build configuration list for PBXNativeTarget "TestViper01Tests" */;
 			buildPhases = (
+				7895947D2ECE52C25CAFE457 /* 📦 Check Pods Manifest.lock */,
 				5B10D00F1E0C17A500719BB4 /* Sources */,
 				5B10D0101E0C17A500719BB4 /* Frameworks */,
 				5B10D0111E0C17A500719BB4 /* Resources */,
+				12B0F60C646A41B9CDACAC7C /* 📦 Embed Pods Frameworks */,
+				BB766F619DD2D39591831DC5 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -208,13 +256,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12B0F60C646A41B9CDACAC7C /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestViper01Tests/Pods-TestViper01Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49007DE8F55332625C6F0224 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5607B582965A1145C024118D /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestViper01/Pods-TestViper01-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7895947D2ECE52C25CAFE457 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		86BF3D350F54A95DF2C780C4 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestViper01/Pods-TestViper01-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB766F619DD2D39591831DC5 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestViper01Tests/Pods-TestViper01Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5B10CFF61E0C17A500719BB4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B10D0241E0C229900719BB4 /* TestViperToDoTableViewController.m in Sources */,
 				5B10D0051E0C17A500719BB4 /* ViewController.m in Sources */,
 				5B10D0021E0C17A500719BB4 /* AppDelegate.m in Sources */,
+				5B10D0271E0C782100719BB4 /* TestViperToDoTableViewCell.m in Sources */,
 				5B10CFFF1E0C17A500719BB4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +490,7 @@
 		};
 		5B10D01D1E0C17A500719BB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DA5E5E5473E71BDB44B59EC /* Pods-TestViper01.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestViper01/Info.plist;
@@ -358,6 +502,7 @@
 		};
 		5B10D01E1E0C17A500719BB4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2DF1B5CE0EEB249782783F6 /* Pods-TestViper01.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestViper01/Info.plist;
@@ -369,6 +514,7 @@
 		};
 		5B10D0201E0C17A500719BB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A245230D5299624AA09E70F /* Pods-TestViper01Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TestViper01Tests/Info.plist;
@@ -381,6 +527,7 @@
 		};
 		5B10D0211E0C17A500719BB4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E436922F336A0FC856801454 /* Pods-TestViper01Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TestViper01Tests/Info.plist;
@@ -410,6 +557,7 @@
 				5B10D01E1E0C17A500719BB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B10D01F1E0C17A500719BB4 /* Build configuration list for PBXNativeTarget "TestViper01Tests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +566,7 @@
 				5B10D0211E0C17A500719BB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
